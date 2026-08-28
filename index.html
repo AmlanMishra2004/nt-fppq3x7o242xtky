@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#f4efe6" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="New Part" />
+    <title>New Part</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="icons/icon-192.png" type="image/png" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="top-start">
+        <button type="button" id="back" class="icon-btn" hidden>
+          <span aria-hidden="true">‹</span>
+          <span id="back-label">Books</span>
+        </button>
+      </div>
+      <h1 id="title">The Book</h1>
+      <div class="tools">
+        <button type="button" id="font-down" class="icon-btn" aria-label="Smaller text">
+          A−
+        </button>
+        <button type="button" id="font-up" class="icon-btn" aria-label="Larger text">
+          A+
+        </button>
+        <button type="button" id="verse-numbers" class="icon-btn" aria-pressed="false" aria-label="Show verse numbers">
+          123
+        </button>
+        <button
+          type="button"
+          id="read-aloud"
+          class="icon-btn"
+          aria-pressed="false"
+          aria-label="Read this chapter aloud"
+          hidden
+        >
+          Listen
+        </button>
+        <button type="button" id="lang" class="icon-btn" aria-label="Switch to Hinglish">
+          Hinglish
+        </button>
+        <button type="button" id="theme" class="icon-btn" aria-label="Toggle theme">
+          Theme
+        </button>
+      </div>
+    </header>
+    <main id="app"></main>
+    <script src="app.js"></script>
+  </body>
+</html>
