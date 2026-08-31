@@ -67,10 +67,11 @@ const PARTS = [
     name: "Mother Mary",
     sections: [
       { name: "Passages", ids: ["mother"] },
+      { name: "Her Voice", ids: ["her-voice"] },
       { name: "Prayers", ids: ["prayers-to-mary", "akathist", "dante"] },
       {
         name: "Her Story",
-        ids: ["guadalupe", "fatima", "birth-of-mary", "mary-and-the-child"],
+        ids: ["guadalupe", "lourdes", "fatima", "birth-of-mary", "mary-and-the-child"],
       },
       { name: "Mothering", ids: ["julian"] },
     ],

@@ -1,4 +1,4 @@
-const CACHE = "nt-reader-v22";
+const CACHE = "nt-reader-v23";
 const ASSETS = [
   "./",
   "./index.html",
