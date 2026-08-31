@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "New Part",
-  "short_name": "NT",
-  "description": "Personal New Part reader",
+  "name": "Book",
+  "short_name": "Book",
+  "description": "Personal Book reader",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
