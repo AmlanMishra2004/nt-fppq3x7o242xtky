@@ -24,7 +24,7 @@ const loading = {};
 // Books listed in canonical order; this also drives next/previous chapter flow.
 const PARTS = [
   {
-    name: "Old Part",
+    name: "Yahweh",
     sections: [
       { name: "Law & History", ids: ["genesis", "exodus", "ruth", "nehemiah", "esther"] },
       {
@@ -35,7 +35,7 @@ const PARTS = [
     ],
   },
   {
-    name: "New Part",
+    name: "Yeshu",
     sections: [
       { name: "Life of Yeshu", ids: ["matthew", "mark", "luke", "john"] },
       { name: "Acts", ids: ["acts"] },
