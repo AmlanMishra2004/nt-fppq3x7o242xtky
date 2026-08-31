@@ -70,7 +70,14 @@ const PARTS = [
       { name: "Prayers", ids: ["prayers-to-mary", "akathist", "dante"] },
       {
         name: "Her Story",
-        ids: ["guadalupe", "lourdes", "fatima", "birth-of-mary", "mary-and-the-child"],
+        ids: [
+          "guadalupe",
+          "rue-du-bac",
+          "lourdes",
+          "fatima",
+          "birth-of-mary",
+          "mary-and-the-child",
+        ],
       },
       { name: "Mothering", ids: ["julian"] },
     ],
