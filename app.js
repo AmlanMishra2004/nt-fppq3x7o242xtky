@@ -220,6 +220,108 @@ const TOPICS = [
     ],
   },
   {
+    group: "When Someone Close Hurts You",
+    topics: [
+      {
+        id: "feel-boundaries",
+        name: "Drawing a Line",
+        passages: [
+          { label: "Do not keep company with a hot-tempered person", ref: ["proverbs", 22, 24, 25] },
+          { label: "Guard your heart", ref: ["proverbs", 4, 20, 27] },
+          { label: "Seldom set foot in that house", ref: ["proverbs", 25, 17, 20] },
+          { label: "Too long among those who hate peace", ref: ["psalms", 120, 1, 7] },
+          { label: "Without wood, the fire goes out", ref: ["proverbs", 26, 20, 28] },
+          { label: "He put them all outside", ref: ["mark", 5, 35, 43] },
+        ],
+      },
+      {
+        id: "feel-temper",
+        name: "Living With a Temper",
+        passages: [
+          { label: "A constant dripping on a rainy day", ref: ["proverbs", 27, 15, 16] },
+          { label: "Better the desert than that house", ref: ["proverbs", 21, 19, 19] },
+          { label: "Anger stirs up strife", ref: ["proverbs", 15, 1, 18] },
+          { label: "Wrath is cruel, anger is a flood", ref: ["proverbs", 27, 3, 6] },
+          { label: "Hasty words", ref: ["proverbs", 29, 20, 25] },
+          { label: "A refuge while they threaten", ref: ["psalms", 62, 1, 12] },
+        ],
+      },
+      {
+        id: "feel-vulnerable",
+        name: "Being Vulnerable",
+        passages: [
+          { label: "Pour out your heart", ref: ["psalms", 62, 1, 12] },
+          { label: "You have kept count of my wanderings", ref: ["psalms", 56, 1, 13] },
+          { label: "You searched me and knew me", ref: ["psalms", 139, 1, 18] },
+          { label: "She told him the whole truth", ref: ["luke", 8, 43, 48] },
+          { label: "They sat with him and said nothing", ref: ["job", 2, 11, 13] },
+          { label: "A bruised reed he will not break", ref: ["isaiah", 42, 1, 9] },
+        ],
+      },
+      {
+        id: "feel-cycle",
+        name: "Apology That Repeats",
+        passages: [
+          { label: "His words were softer than oil", ref: ["psalms", 55, 9, 23] },
+          { label: "When he speaks kindly, do not believe him", ref: ["proverbs", 26, 20, 28] },
+          { label: "Flattering lips and a double heart", ref: ["psalms", 12, 1, 8] },
+          { label: "The kisses of an enemy", ref: ["proverbs", 27, 3, 6] },
+          { label: "Why do you stand far off?", ref: ["psalms", 10, 1, 18] },
+          { label: "The Lord is near to the broken-hearted", ref: ["psalms", 34, 15, 22] },
+        ],
+      },
+      {
+        id: "feel-suppress",
+        name: "Told to Bury It",
+        passages: [
+          { label: "Worthless physicians; be silent instead", ref: ["job", 13, 1, 12] },
+          { label: "Miserable comforters are you all", ref: ["job", 16, 1, 8] },
+          { label: "Songs sung to a heavy heart", ref: ["proverbs", 25, 17, 20] },
+          { label: "A time to keep silence, a time to speak", ref: ["ecclesiastes", 3, 1, 8] },
+          { label: "Darkness is my closest friend", ref: ["psalms", 88, 1, 18] },
+          { label: "He heals the broken and binds the wound", ref: ["psalms", 147, 1, 6] },
+        ],
+      },
+      {
+        id: "feel-denied",
+        name: "When They Deny It",
+        passages: [
+          { label: "Your answers are nothing but falsehood", ref: ["job", 21, 27, 34] },
+          { label: "Would you cast lots over the orphan?", ref: ["job", 6, 14, 30] },
+          { label: "They charge me with what I know nothing about", ref: ["psalms", 35, 11, 22] },
+          { label: "The slander of many", ref: ["psalms", 31, 9, 18] },
+          { label: "No prophet is accepted at home", ref: ["luke", 4, 16, 30] },
+          { label: "The oppressed had no comforter", ref: ["ecclesiastes", 4, 1, 6] },
+        ],
+      },
+      {
+        id: "feel-parents",
+        name: "Hurt by Family",
+        passages: [
+          { label: "Though my father and mother forsake me", ref: ["psalms", 27, 7, 14] },
+          { label: "My kin have failed me", ref: ["job", 19, 13, 22] },
+          { label: "His own family came to restrain him", ref: ["mark", 3, 20, 35] },
+          { label: "They took offence at him", ref: ["mark", 6, 1, 6] },
+          { label: "Hagar and her son sent away", ref: ["genesis", 21, 8, 21] },
+          { label: "Can a mother forget?", ref: ["isaiah", 49, 13, 16] },
+        ],
+      },
+      {
+        id: "feel-unbelieved",
+        name: "No One Believes You",
+        passages: [
+          { label: "I looked for comforters and found none", ref: ["psalms", 69, 19, 33] },
+          { label: "No one cares for my soul", ref: ["psalms", 142, 1, 7] },
+          { label: "I am not inferior to you", ref: ["job", 13, 1, 12] },
+          { label: "Who touched me?", ref: ["luke", 8, 43, 48] },
+          { label: "You have seen it; be not silent", ref: ["psalms", 35, 11, 22] },
+          { label: "Afflicted one, storm-tossed and uncomforted", ref: ["isaiah", 54, 11, 17] },
+          { label: "Bind up the broken-hearted", ref: ["isaiah", 61, 1, 4] },
+        ],
+      },
+    ],
+  },
+  {
     group: "When It Is Unclear",
     topics: [
       {
