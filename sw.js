@@ -1,4 +1,4 @@
-const CACHE = "nt-reader-v23";
+const CACHE = "nt-reader-v24";
 const ASSETS = [
   "./",
   "./index.html",
@@ -45,7 +45,9 @@ self.addEventListener("fetch", (event) => {
 
   event.respondWith(
     networkFirst
-      ? fetch(request)
+      // Pages serves these with max-age=600, so ask past the HTTP cache or an
+      // edit can take ten minutes to reach the phone.
+      ? fetch(new Request(request.url, { cache: "reload" }))
           .then((response) => {
             const copy = response.clone();
             caches.open(CACHE).then((cache) => cache.put(request, copy));
