@@ -864,7 +864,7 @@ function otherLang() {
 
 function loadLanguage(lang) {
   if (!loading[lang]) {
-    loading[lang] = fetch(LANGUAGES[lang].file)
+    loading[lang] = fetch(LANGUAGES[lang].file, { cache: "reload" })
       .then((response) => {
         if (!response.ok) throw new Error(`Could not load the ${LANGUAGES[lang].label} text.`);
         return response.json();
